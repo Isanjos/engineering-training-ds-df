@@ -98,43 +98,6 @@ Antes de criar o ambiente de código, vamos configurar as permissões necessári
 
 ![Token](images/token.png)
 
-## 5️⃣ Criação do Autonomous Database
-
-Agora iremos criar nosso banco de dados:
-
-1. Clique no menu **(☰)** e selecione **Oracle AI Database ⮕ Autonomous AI Database**.
-
-![Autonomous Acess](images/Homepage-ADB.png)
-
-2. SELECIONE O COMPARTIMENTO CRIADO e em seguida clique em **Create Autonomous AI Database**.
-   
-> **ATENÇÃO:** Selecione o **Compartment** criado anteriormente. NÃO SELECIONE O COMPARTMENT DE NOME ```<NomeTenancy>(root)```
-
-![Create Autonomous](images/CreateADB.png)
-![Create Autonomous](images/CompartmentADB.png)
-
-3. Selecione **Lakehouse**
-![Create Autonomous](images/create-autonomous.png)
-
-4. Escolha a versão 26ai para o banco de dados.
-
-![Create 23AI](images/create-23ai.png)
-
-5. Utilize a senha recomendada: **WORKSHOPsec2019##** . Selecione **secure access from everywhere** e clique em **Create Autonomous Database**:
-<br><br>
-
-> **ATENÇÃO**: Verifique se utilizou a senha recomendada **WORKSHOPsec2019##**
-
-![Secure Acess](images/secure-acess.png)
-
-**Vá para o próximo laboratório, não é necessário aguardar a finalização da criação do banco.**
-
-> **Status do Autonomous Database:**
-> - Ícone amarelo = Em criação; 
-> - Ícone verde = Pronto para uso;
-
-![Yellow ADW](images/yellow-adw.png)
-
 ## 6️⃣ Criação de Notebook OCI Data Science
 
 1. Clique no menu **(☰)** e selecione **Analytics & AI ⮕ Data Science**
@@ -212,22 +175,6 @@ Ao final, você deve ter um total de **6 buckets**
 **Vá para o próximo laboratório, não é necessário aguardar a finalização da criação do metastore.**
 
 Você está pronto para prosseguir para o próximo laboratório.
-
-## 9️⃣ [Extra] Como verificar se os serviços já foram criados? 
-
-1. Clique no símbolo da Oracle Cloud, no canto superior esquerdo. Na página inicial, você verá os últimos serviços acessados e o status de cada um, conforme mostrado na imagem a seguir.
-
-![Homepage Status](images/HomepageStatus.png)
-
-### **[OPCIONAL - Verificação Individual]**
-Para visualizar cada instância, você pode clicar no nome da instância ou navegar pelo OCI acessando os serviços. Os passos para acessar essas instâncias estão detalhados a seguir.
-
-#### AUTONOMOUS DATABASE
-
-1. Clique no menu **(☰)** e selecione **Database ⮕ Autonomous Database**.
-
-![Autonomous Acess](images/Homepage-ADB.png)
-![Green ADW](images/green-adw.png)
 
 #### OCI DATA SCIENCE
 
